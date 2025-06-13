@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre mí - Santiago</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0a1a2f; /* Azul oscuro */
+            color: #ffffff;
+        }
+
+        header {
+            text-align: center;
+            padding: 2rem 1rem;
+            background-color: #071323;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .profile {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 2rem;
+            background-color: #112a46;
+            border-radius: 15px;
+            padding: 2rem;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+        }
+
+        .profile img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid #1e3a5f;
+        }
+
+        .profile-text {
+            flex: 1;
+        }
+
+        section {
+            background-color: #1e3a5f;
+            margin-top: 2rem;
+            padding: 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+        }
+
+        section h2 {
+            margin-top: 0;
+            color: #85c1ff;
+        }
+
+        a {
+            color: #add8ff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            padding-left: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bienvenido a mi página personal</h1>
+</header>
+
+<div class="container">
+    <div class="profile">
+        <img src="tu-foto.jpg" alt="Tu foto" />
+        <div class="profile-text">
+            <h2>Hola, soy Santiago</h2>
+            <p>
+                Tengo 18 años y me encuentro en mi tercer ciclo en la carrera de
+                <a href="https://ucsp.edu.pe/carreras/administracion-negocios/" target="_blank">
+                    Administración de Negocios en la Universidad Católica San Pablo
+                </a>.
+            </p>
+            <p>
+                Durante este tiempo he establecido muy buenas relaciones de amistad con 
+                Gabriela Carvallo, Bruno Chiappe, Tomás Becerra, Viviana Sanz, Emily Sánchez, entre otros.
+            </p>
+            <p>
+                Mis hobbies son tocar música con instrumentos acústicos y salir con mis amigos.
+            </p>
+        </div>
+    </div>
+
+    <section id="cursos">
+        <h2>Cursos</h2>
+        <ul>
+            <li>Análisis Financiero</li>
+            <li>Cálculo en varias Variables</li>
+            <li>Filosofía de la Naturaleza</li>
+            <li>Liderazgo</li>
+            <li>Historia Occidental</li>
+            <li>Pensamiento del Consumidor</li>
+            <li>
+                Pensamiento Computacional, a cargo del profesor 
+                <a href="https://www.linkedin.com/in/ecuadrosv/" target="_blank">Ernesto Cuadros</a>.
+            </li>
+        </ul>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Si deseas ponerte en contacto conmigo, escribe al siguiente correo:</p>
+        <p>
+            <a href="mailto:santiagoesbolanos.18@gmail.com">
+                santiagoesbolanos.18@gmail.com
+            </a>
+        </p>
+    </section>
+</div>
+
+</body>
+</html>
